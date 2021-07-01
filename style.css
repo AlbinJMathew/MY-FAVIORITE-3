@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 20px;
+}
+#bio {
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+}
+.menu {
+    position: fixed;
+    list-style: none;
+        top :10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+.link {
+    float: left;
+    color: blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.link:hover {
+    background-color: cadetblue;
+}
+img {
+    margin-top: 80px;
+}
+section {
+    height: 800px;
+}
